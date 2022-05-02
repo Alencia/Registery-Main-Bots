@@ -89,3 +89,7 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 4.teyit-stat
 5.vip
 ```
+
+# Emoji Kurma Kısmı :
+<img  src="https://cdn.discordapp.com/attachments/951522199121051668/970686875260035112/unknown.png">
+
