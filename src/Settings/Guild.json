@@ -1,0 +1,10 @@
+{
+  "token": "TOKENİNİNİZİ GİRİNİZ",
+  "prefix": ["PREFİXSİNİZ"],
+  "status":"BOTUN AKTİFLİGİ STATUSU YANİ",
+  "guildID": "SUNUCUNUZUN IDSİ",
+  "mongoUrl": "DEDİGİM GİBİ MONGO DB GEREKİYOR",
+  "owners": ["BOTUN SAHİBİNİN IDSİ"],
+  "botDurum": "Alencia ❤️",
+  "registerPerm": "Registery Permi"
+}

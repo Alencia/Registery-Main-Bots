@@ -1,0 +1,14 @@
+{
+  "tag": "Tagınız",
+  "ikinciTag": "• İkinci Tagınız",
+  "EtiketTag":"Etiket Tagınız",
+  "vipRole":"Vip Rolü",
+  "erkekRolleri": ["Erkek Rolü 1","Erkek Rolü 2"],
+  "kizRolleri": ["Kız Rolü 1","Kız Rolü 2"],
+  "teyitciRolleri": ["Registery perm"],
+  "ekipRolu": ["Tag rolü"],
+  "sahipRolu": ["sahip rolü"],
+  "unregRoles": ["Kayıtsız Rolü"],
+  "boosterRolu": "Boost Rolü",
+  "fakeAccRole":"Şüpheli Rlü"
+}

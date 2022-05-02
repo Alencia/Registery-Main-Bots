@@ -1,126 +1,75 @@
-# Registery-Main-Bots
+# Registery-Main
+# Geliştirdigim Registery Main Botudur İster İnanın İster İnanmayın!!
 
-# 💥 Açıklama :
-Bu Altyapı Registery Botu kısmı için kodlanmıştır. Projede MIT lisansı olduğundan kimse bu projeyi ticaret amaçlı kullanamaz. ve lütfen boş yapmayınız Teşekkürler <3 iyi kodlamalar , iyi günler. 
-
-# Önemli :
-Projeyi kurduktan sonra terminale `npm i discord.js` yazmayı unutmayın!! Önemle Ve Şiddetle Arz Ederim..
-
-# 🔨 Kurulum :
-Öncelikle token kısmını `alencia.js` degil arkadaşlar Settings Klasörünün içinde `Guild.json'na` yazıcaksınız Bu botta mongo.db oldugu için bu bot için özel bir mongo db olması gerekmektedir. Ve Settings klasörünün içinde diyer `log.json , Permissions.json , emojidb.json` doldurarak botun bütün kurulumlarını ayarlamış olursunuz Örnegin;
-
-# 🎉 Guild.json Kurulum :
-```js
+# Guildin Kısmı Zorunlu Kısım
+ ```js
+ "token": "TOKEN",
+  "prefix": ["PREFİX"],
+  "guildID": "SUNUCU IDSİ",
+  "mongoUrl": "MONGO URLSİ GİRİCEKSİNİZ",
+  "owners": ["BOT SAHİBİ"],
+  "botDurum": "Alencia ❤️",
+  "botSes": "BOTUN SESE GİRİCEGİ YER",
+  "registerPerm": "REGİSTER PERMİ"
+  ```
+  # Sunucu Log Kısımları
+  ```js
 {
-  "token": "TOKENİNİNİZİ GİRİNİZ",
-  "prefix": ["PREFİXSİNİZ"],
-  "status":"BOTUN AKTİFLİGİ STATUSU YANİ",
-  "guildID": "SUNUCUNUZUN IDSİ",
-  "mongoUrl": "DEDİGİM GİBİ MONGO DB GEREKİYOR",
-  "owners": ["BOTUN SAHİBİNİN IDSİ"],
-  "botDurum": "Alencia ❤️",//Botun Durumunda Çıkıcak yazı
-  "registerPerm": "Registery Permi"
-}
-```
-
-# 🎉 Log.json Kurulum :
-```js
-{
-    "kayitlog":"Bir Kullanıcıyı Kayıt Ettikten Sonra Log Giden mesaj",
-    "chatChannel": "Kayıt Edildikten Sonra Giden mesaj Sunucunun Chatin Mesajı",
-    "teyitKanali": "Hoşgeldin mesajının gelicegi yer",
-    "TagLogAldi": "tag aldıgı zaman loga gidicek mesaj",
-    "invLogChannel": "invite davet mesajının gidicegi kanal ıdsi",
-    "botses": "Botun sese Idsi",
-    "SesTeyit":"Sesteyit kanalının ıdsi",
-    "kurallar": "Kuralların odsi"
+    "kayitlog":"KAYİT LOG İDSİ GİRMELİSİN",
+    "chatChannel": "CHATİN KANALINIIN IDSİNİ GİRMELİSİN",
+    "teyitKanali": "HOŞGELDİN MESAJINI ATICAGI YERİ BELİRLERSİNİZ",
+    "ekipLogChannel": "TAG LOG KISMINI AYARLAYINIZ",
+    "invLogChannel": "İNVİTE LOG KISMI",
+    "botses": "BOTUN SESE GİRİCEGİ KISIM",
+    "kurallar": "KURULLAR KISMI"
   
 }
-```
-
-# 🎉 Permissions.json Kurulum :
-```js
+   ```
+ # Sunucu Permission Kısmı Zorunlu
+  ```js
 {
-  "tag": "Tagınız",
-  "ikinciTag": "• İkinci Tagınız",
-  "EtiketTag":"Etiket Tagınız",
-  "vipRole":"Vip Rolü",
-  "erkekRolleri": ["Erkek Rolü 1","Erkek Rolü 2"],
-  "kizRolleri": ["Kız Rolü 1","Kız Rolü 2"],
-  "teyitciRolleri": ["Registery perm"],
-  "ekipRolu": ["Tag rolü"],
-  "sahipRolu": ["sahip rolü"],
-  "unregRoles": ["Kayıtsız Rolü"],
-  "boosterRolu": "Boost Rolü",
-  "fakeAccRole":"Şüpheli Rlü"
+  "tag": "TAGINIZ",
+  "ikinciTag": "• UNTAG BU OLABİLİR VEYA FARKLI",
+  "EtiketTag":"1874",
+  "erkekRolleri": ["ERKEK ROL 1","ERKEK ROL 2"],
+  "kizRolleri": ["KIZ ROL 1","KIZ ROL 2"],
+  "yetkiRolleri": ["YETKİLİ ROL"],
+  "teyitciRolleri": ["REGİSTER ROL"],
+  "ekipRolu": ["TAG ROLÜ"],
+  "sahipRolu": ["KURUCU ROL"],
+  "unregRoles": ["KAYITSIZ ROL 1","YOK İSE SİLİNİZ"],
+  "boosterRolu": "BOOSTER ROL",
+  "fakeAccRole":"ŞÜPHELİ ROL",
+  "jailRole": ["CEZALI ROL"]
 }
-```
-
-# 🎉 emojidb.json Kurulum :
-```js
-{
-Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.alencia-emojikur` diyerek veya degiştirebilirsiniz onu yaptıktan sonra otomatik buraya düşüyor. Ve emoji çekebilirsiniz burdan yaptıgınız komutlara
-}
-```
-
-# 💥 Admin Komutları :
-```js
-1.Emojikur
-2.eval
-3.isim-reset
-4.ping
-5.reload
-6.rolsüz
-7.taglı-alım
-```
-
-# 💥 Sunucu Komutları :
-```js
-1.Yetkili Say
-2.say
-3.tagsay
-```
-
-# 💥 staff Komutları :
-```js
-1.günlükinfo
-2.yardım
-3.isimler
-4.teyit-stat
-5.vip
-```
-
-# ⛔ Emoji Kurma Kısmı :
-<img  src="https://cdn.discordapp.com/attachments/951522199121051668/970686875260035112/unknown.png">
-
-# ⛔ İsim Sıfırlama Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691018716508210/unknown.png">
-
-# ⛔ ping Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691103911206973/unknown.png">
-
-# ⛔ rolsüz ver Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691239609507890/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691350683091025/unknown.png">
-
-# ⛔ taglı-alım aç/kapat Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691589905207366/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691690954362890/unknown.png">
-
-# ⛔ Yetkili Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692772367573002/unknown.png">
-
-# ⛔  Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692869004349460/unknown.png">
-
-# ⛔  Tag Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692966584827924/unknown.png">
-
-# ⛔  Kayıt Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690568860614686/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690674838110208/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690810922291200/unknown.png">
-
-# ⛔  Sunucu Yaş Ortalaması Ve Giriş Ortalaması Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690279235518504/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690096309362748/unknown.png">
+   ```
+   # Hoşgeldin Mesajı 
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962456066795401317/unknown.png">
+   # Kayıtsız Komutu
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962355548483887144/unknown.png">
+   # Kayıt Komutu
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962355912947925032/unknown.png">
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962356054430191646/unknown.png">
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962356154812469288/unknown.png">
+   # Kayıt Komutu Yaptıktan Sonra Log
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962442015981854801/unknown.png">
+   # İsim Degiştirme Komutu
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962356767256379532/unknown.png">
+   # İsim Degiştirme Komutu Log 
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962442057589342349/unknown.png">
+   # Kayıt İsim Sıfırlama Komutu
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962449376142307358/unknown.png">
+   # Kayıt İsim Sıfırlama Komutu Log
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962449442303246366/unknown.png">
+   # Kayıt Yetkilisi Stat Komutu
+   
+   <img src="https://cdn.discordapp.com/attachments/960213823141339206/962358762721665084/unknown.png">
+   

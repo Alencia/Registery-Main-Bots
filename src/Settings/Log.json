@@ -1,0 +1,11 @@
+{
+    "kayitlog":"Bir Kullanıcıyı Kayıt Ettikten Sonra Log Giden mesaj",
+    "chatChannel": "Kayıt Edildikten Sonra Giden mesaj Sunucunun Chatin Mesajı",
+    "teyitKanali": "Hoşgeldin mesajının gelicegi yer",
+    "TagLogAldi": "tag aldıgı zaman loga gidicek mesaj",
+    "invLogChannel": "invite davet mesajının gidicegi kanal ıdsi",
+    "botses": "Botun sese Idsi",
+    "SesTeyit":"Sesteyit kanalının ıdsi",
+    "kurallar": "Kuralların odsi"
+  
+}
