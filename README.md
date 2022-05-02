@@ -63,7 +63,7 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 }
 ```
 
-# Admin Komutları
+# 💥 Admin Komutları
 ```js
 1.Emojikur
 2.eval
@@ -73,14 +73,15 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 6.rolsüz
 7.taglı-alım
 ```
-# Sunucu Komutları
-```js
 
+# 💥 Sunucu Komutları
+```js
 1.Yetkili Say
 2.say
 3.tagsay
 ```
-# staff Komutları
+
+# 💥 staff Komutları
 ```js
 1.günlükinfo
 2.yardım
