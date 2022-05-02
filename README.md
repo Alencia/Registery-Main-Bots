@@ -94,10 +94,10 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 <img  src="https://cdn.discordapp.com/attachments/951522199121051668/970686875260035112/unknown.png">
 
 # ⛔ İsim Sıfırlama Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687233701060688/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691018716508210/unknown.png">
 
 # ⛔ ping Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687411388547153/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970691103911206973/unknown.png">
 
 # ⛔ rolsüz ver Kısmı :
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970687564791038012/unknown.png">
