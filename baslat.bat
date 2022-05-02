@@ -1,5 +1,5 @@
 echo off
-title Dark Heaven Registery Main
+title Alencia Registery Main
 cls
 :a
 node alencia.js
