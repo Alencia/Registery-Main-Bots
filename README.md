@@ -90,6 +90,37 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 5.vip
 ```
 
-# Emoji Kurma Kısmı :
+# ⛔ Emoji Kurma Kısmı :
 <img  src="https://cdn.discordapp.com/attachments/951522199121051668/970686875260035112/unknown.png">
 
+# ⛔ İsim Sıfırlama Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687233701060688/unknown.png">
+
+# ⛔ ping Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687411388547153/unknown.png">
+
+# ⛔ rolsüz ver Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687564791038012/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687682294460486/unknown.png">
+
+# ⛔ taglı-alım aç/kapat Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970687886695489587/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970688382495776828/unknown.png">
+
+# ⛔ Yetkili Say Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970688714311335976/unknown.png">
+
+# ⛔  Say Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970688863167205436/unknown.png">
+
+# ⛔  Tag Say Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689036580687922/unknown.png">
+
+# ⛔  Kayıt Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689408485433374/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689562999390278/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689807833530438/unknown.png">
+
+# ⛔  Sunucu Yaş Ortalaması Ve Giriş Ortalaması Kısmı :
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690279235518504/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690096309362748/unknown.png">
