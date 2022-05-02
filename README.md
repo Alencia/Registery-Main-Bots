@@ -111,10 +111,10 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 <img src="https://cdn.discordapp.com/attachments/952620130897100870/970692772367573002/unknown.png">
 
 # ⛔  Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970688863167205436/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692869004349460/unknown.png">
 
 # ⛔  Tag Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689036580687922/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692966584827924/unknown.png">
 
 # ⛔  Kayıt Kısmı :
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970690568860614686/unknown.png">
