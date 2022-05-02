@@ -117,9 +117,9 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970689036580687922/unknown.png">
 
 # ⛔  Kayıt Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689408485433374/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689562999390278/unknown.png">
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970689807833530438/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690568860614686/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690674838110208/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/951522199121051668/970690810922291200/unknown.png">
 
 # ⛔  Sunucu Yaş Ortalaması Ve Giriş Ortalaması Kısmı :
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970690279235518504/unknown.png">
