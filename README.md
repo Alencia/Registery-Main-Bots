@@ -1,1 +1,3 @@
 # Registery-Main-Bots
+
+## ARTIK KARAR SİZİN BRO ATICAM BİRAZ GELİŞTİRİYİM SİZLERLE KİLOGALA
