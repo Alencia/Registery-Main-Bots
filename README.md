@@ -108,7 +108,7 @@ Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970691690954362890/unknown.png">
 
 # ⛔ Yetkili Say Kısmı :
-<img src="https://cdn.discordapp.com/attachments/951522199121051668/970688714311335976/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/952620130897100870/970692772367573002/unknown.png">
 
 # ⛔  Say Kısmı :
 <img src="https://cdn.discordapp.com/attachments/951522199121051668/970688863167205436/unknown.png">
