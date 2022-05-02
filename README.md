@@ -1,7 +1,11 @@
 # Registery-Main-Bots
 
 # 💥 Açıklama :
-Bu Altyapı Registery Botu kısmı için kodlanmıştır. Projede MIT lisansı olduğundan kimse bu projeyi ticaret amaçlı kullanamaz. ve lütfen boş yapmayınız Teşekkürler <3 iyi kodlamalar , iyi günler. :)
+Bu Altyapı Registery Botu kısmı için kodlanmıştır. Projede MIT lisansı olduğundan kimse bu projeyi ticaret amaçlı kullanamaz. ve lütfen boş yapmayınız Teşekkürler <3 iyi kodlamalar , iyi günler. 
+
+# Önemli :
+Projeyi kurduktan sonra terminale `npm i discord.js` yazmayı unutmayın!! Önemle Ve Şiddetle Arz Ederim..
+
 # 🔨 Kurulum :
 Öncelikle token kısmını `alencia.js` degil arkadaşlar Settings Klasörünün içinde `Guild.json'na` yazıcaksınız Bu botta mongo.db oldugu için bu bot için özel bir mongo db olması gerekmektedir. Ve Settings klasörünün içinde diyer `log.json , Permissions.json , emojidb.json` doldurarak botun bütün kurulumlarını ayarlamış olursunuz Örnegin;
 
@@ -55,6 +59,32 @@ Bu Altyapı Registery Botu kısmı için kodlanmıştır. Projede MIT lisansı o
 # 🎉 emojidb.json Kurulum :
 ```js
 {
-Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.alencia-emojikur` diyerek veya degiştirebilirsiniz onu yaptıktan sonra otomatik buraya düşüyor.
+Burası Yukarıdakileri yaptıktan sonra botun `emojikur.js` var onu sunucuda `.alencia-emojikur` diyerek veya degiştirebilirsiniz onu yaptıktan sonra otomatik buraya düşüyor. Ve emoji çekebilirsiniz burdan yaptıgınız komutlara
 }
+```
+
+# Admin Komutları
+```js
+1.Emojikur
+2.eval
+3.isim-reset
+4.ping
+5.reload
+6.rolsüz
+7.taglı-alım
+```
+# Sunucu Komutları
+```js
+
+1.Yetkili Say
+2.say
+3.tagsay
+```
+# staff Komutları
+```js
+1.günlükinfo
+2.yardım
+3.isimler
+4.teyit-stat
+5.vip
 ```
