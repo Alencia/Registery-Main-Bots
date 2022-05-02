@@ -1,5 +1,5 @@
-# Registery-Main
-# Geliştirdigim Registery Main Botudur İster İnanın İster İnanmayın!!
+# Registery-Main 
+## Geliştirdigim Registery Main Botudur Bu Bot Baya Gelişti Alttaki Şeyler Eskide Kaldı Bro
 
 # Guildin Kısmı Zorunlu Kısım
  ```js
